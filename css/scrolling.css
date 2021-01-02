@@ -39,7 +39,7 @@ html {
 
 
 
-.section__img {
+.section__img{
   position: relative;
   display: flex;
 }
@@ -145,13 +145,18 @@ h2 {
 }
 
 
+mobile-only{
+  display: none;
+}
+
+
 @media(max-aspect-ratio: 1/1){
 
   .videoWrapper{
     display: none;
   }
   .section__img__inner {
-    height: 50vh;
+    height: 100vh;
     position: fixed;
     left: 0;
     width: 100%;
@@ -192,5 +197,13 @@ h2 {
 
  h2{
    font-size: min(100pt, 10vw);
+ }
+
+ video{
+   display: none;
+ }
+
+ mobile-only{
+   display: block;
  }
 }

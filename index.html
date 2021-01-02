@@ -33,7 +33,7 @@
 
 
 <div class="section">
-  <div class="section__img">
+  <div class="section__hero">
     <div
       class="section__img__inner">
       <div class="videoWrapper">
@@ -46,8 +46,19 @@
         <script>
           document.getElementById('vid').play();
         </script>
-
       </div>
+      <mobile-only>
+        <div id="slideshow">
+          <div
+            class="section__img__inner"
+            style="background-image: url(https://sashaphotoca.files.wordpress.com/2019/05/flowers-photoshoot-0091.jpg?w=1920&h=);"
+          ></div>
+          <div
+            class="section__img__inner"
+            style="background-image: url(https://sashaphotoca.files.wordpress.com/2019/05/sparky-photoshop-v5.jpg?w=1920&h=);"
+          ></div>
+        </div>
+      </mobile-only>
     </div>
   </div>
   <div class="section__body">
@@ -155,6 +166,7 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
   <script src="js/scrolling.js"></script>
+  <script src="js/slideshow.js"></script>
 
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
