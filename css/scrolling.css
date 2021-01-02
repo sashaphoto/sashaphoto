@@ -187,6 +187,10 @@ mobile-only{
     filter: blur(5px);
   }
 
+  .section lottie-player{
+    top:70%
+  }
+
 
 }
 
