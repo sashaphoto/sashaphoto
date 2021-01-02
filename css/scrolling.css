@@ -184,3 +184,13 @@ h2 {
 
 
 }
+
+@media(max-width: 640px){
+  .section__text h3{
+    font-size: min(60pt, 3vw);
+  }
+
+ h2{
+   font-size: min(100pt, 10vw);
+ }
+}
