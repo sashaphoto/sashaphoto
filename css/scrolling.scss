@@ -55,7 +55,7 @@ html {
   filter: blur(30px);
   opacity: 0;
   background-position: 50% 40%;
-  transition: filter .6s ease, opacity .6s ease, background-position 0.8s ease;
+  transition: filter .6s ease, opacity .6s ease;
 }
 
 .section.active .section__img__inner {
