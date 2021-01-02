@@ -1,6 +1,14 @@
+:root{
+  --hover-gradient:linear-gradient(90deg,#ff8a00,#e52e71);
+}
+
 html {
   line-height: 0.9;
   background: #000000;
+}
+
+iframe {
+  border: none;
 }
 
 
@@ -74,6 +82,7 @@ html {
   text-shadow: 0 2px 3px rgba(0,0,0,0.5);
 }
 
+
 .section__text h3{
   display: block;
   font-size: min(30pt, 2vw);
@@ -95,10 +104,21 @@ html {
   object-fit: cover;
 
 }
+
+.section iframe {
+  display: none;
+}
+
 .section.active .section__img__inner {
   opacity: 1;
   background-position: 50% 50%;
   filter: blur(0);
+
+
+}
+
+.section.active iframe {
+  display: block;
 }
 h2 {
   font-size: min(100pt, 7vw);
