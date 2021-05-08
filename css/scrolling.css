@@ -11,6 +11,36 @@ iframe {
   border: none;
 }
 
+.small-item{
+  max-width: 50%;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.left-half{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  -ms-transform: translate(-50%, -75%);
+  transform: translate(-50%, -75%);
+}
+
+.fullscreen-left{
+  margin: 0;
+  position: absolute;
+  height: 100%;
+  left: 55%;
+
+
+}
+
 
 .background {
   position: fixed;
@@ -231,3 +261,4 @@ mobile-only{
    display: block;
  }
 }
+

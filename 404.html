@@ -3,38 +3,53 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Page Not Found</title>
+  <title>sashaphoto - 404</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    * {
-      line-height: 1.2;
-      margin: 0;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 
     html {
       color: #888;
       display: table;
-      font-family: sans-serif;
+      font-family: Manrope,sans-serif;
       height: 100%;
       text-align: center;
       width: 100%;
     }
 
     body {
-      display: table-cell;
+      display: block;
       vertical-align: middle;
-      margin: 2em auto;
     }
 
     h1 {
       color: #555;
-      font-size: 2em;
+      font-size: 5em;
       font-weight: 400;
+    }
+    h2{
+      font-size: 3em;
+      color: red;
+      font-weight: bold;
     }
 
     p {
       margin: 0 auto;
       width: 280px;
+    }
+
+    a{
+      text-underline: none;
+    }
+
+    error{
+      display: block;
+      padding: 10px;
+    }
+
+    error p {
+      font-size: 20pt;
+      font-weight: 400;
     }
 
     @media only screen and (max-width: 280px) {
@@ -54,8 +69,17 @@
 </head>
 
 <body>
-  <h1>Page Not Found</h1>
-  <p>Sorry, but the page you were trying to view does not exist.</p>
+  <a href="https://sashaphoto.ca/"><h1>sashaphoto.ca</h1></a>
+
+
+  <error class="error">
+    <h2>404 - Page Not Found</h2>
+    <p>Sorry, but the page you were trying to view does not exist.</p>
+  </error>
+
+  <a href="index.html"><h3>Back to homepage!</h3></a>
+
+
 </body>
 
 </html>
